@@ -1,0 +1,14 @@
+[project]
+name = "recurrentgemma-scripts"
+version = "0.1.0"
+description = "Utility and profiling scripts for RecurrentGemma."
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.2",
+    "absl-py>=1.4",
+    "sentencepiece>=0.2",
+    "pytest>=8",
+]
+
+[tool.pytest.ini_options]
+addopts = "-q"
